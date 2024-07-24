@@ -11,6 +11,6 @@ def main() :
     dog.call()
 
     cat = Cat("Catty", "Cat", "MIrngaw")
-
+    cat.call()
 
 main()
