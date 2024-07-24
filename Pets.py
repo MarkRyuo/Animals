@@ -6,12 +6,14 @@ class Pets :
     
     
     # Todo create constructor 
-    def __init__(self, name, type ):
+    def __init__(self, name, Type ):
         self.name = name 
-        self.type = type
-    
-    
+        self.Type = Type
     
     @abstractmethod 
+    
+    def call(self){
+        print("The name of dog is ")
+    }
     
     
