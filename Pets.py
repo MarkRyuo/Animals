@@ -5,12 +5,12 @@ from abc import ABC, abstractmethod
 class Pets(ABC) :
     
     
+    
     # Todo create constructor 
     def __init__(self, name, Type ):
         self.name = name 
         self.Type = Type
     
-    @abstractmethod 
     
     def call(self) : 
         pass 
