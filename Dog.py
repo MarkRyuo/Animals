@@ -10,4 +10,7 @@ class Dog(Pets) :
         this.breed = breed 
     
     
-    # Todo call the 
+    # Todo call the call method in the superclass 
+    
+    def call(self):
+        
