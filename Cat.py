@@ -13,5 +13,5 @@ class Cat(Pets) :
     
     def call(self):
         super().call()
-        print(f"The breed of this dog is {self.breed}")
-        print
+        print(f"The breed of this dog is {self.breed} \n")
+        
