@@ -13,5 +13,6 @@ class Pets :
     @abstractmethod 
     
     def call(self) : 
+        pass 
     
     
