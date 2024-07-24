@@ -12,8 +12,6 @@ class Pets :
     
     @abstractmethod 
     
-    def call(self){
-
-    }
+    def call(self) : 
     
     
