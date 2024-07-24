@@ -12,6 +12,6 @@ class Pets(ABC) :
     
     @abstractmethod 
     def call(self) : 
-        pass 
+        print(f"My {self.type} is {self.name}")
     
     
