@@ -4,6 +4,12 @@ from abc import ABC, abstractmethod
 
 class Pets :
     
+    
+    # Todo create constructor 
+    def __init__(self, name, type ):
+    
+    
+    
     @abstractmethod 
     
     
