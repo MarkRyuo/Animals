@@ -13,8 +13,7 @@ class Pets :
     @abstractmethod 
     
     def call(self){
-        print(f"The name of pets is {self.name}")
-        print(f"The type of animal is {self.Type}")
+
     }
     
     
