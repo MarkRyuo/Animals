@@ -1,4 +1,4 @@
-
+from Dog import Dog 
 
 
 
@@ -7,4 +7,8 @@
 
 def main() :
     
-    dog = Dog()
+    dog = Dog("Doggy", "Dog", "Doberman")
+    dog.call()
+
+
+main()
