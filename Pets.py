@@ -13,7 +13,3 @@ class Pets(ABC) :
     @abstractmethod 
     def call(self) : 
         print(f"My {self.Type} is {self.name}")
-    
-    
-    
-    
