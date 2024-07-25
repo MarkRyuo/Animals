@@ -11,7 +11,7 @@ def main() :
     dog = Dog("Doggy", "Dog", "Doberman", "AWW, AWW")
     dog.call()
 
-    cat = Cat("Catty", "Cat", "MIrngaw",)
+    cat = Cat("Catty", "Cat", "MIrngaw")
     cat.call()
 
     dog2 = Dog2("Timmy", "Dog", "Askal", "Aww Aww")
