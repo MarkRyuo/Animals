@@ -6,10 +6,10 @@ class Pets(ABC) :
     
     
     # Todo create constructor 
-    def __init__(self, name, Type ):
+    def __init__(self, name, Type, breed ):
         self.name = name 
         self.Type = Type
-    
+        self.breed = breed
+
     @abstractmethod 
     def call(self) : 
-        print(f"My {self.Type} is {self.name}")
