@@ -1,5 +1,6 @@
 from Dog import Dog 
 from Cat import Cat 
+from Dog2 import Dog2
 
 
 # Todo Creating a Inheritance and Abstract Using Animals 
@@ -12,5 +13,7 @@ def main() :
 
     cat = Cat("Catty", "Cat", "MIrngaw")
     cat.call()
+
+    dog2 = Dog2
 
 main()
