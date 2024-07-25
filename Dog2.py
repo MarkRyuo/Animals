@@ -5,5 +5,5 @@ class Dog2(Dog) :
 
     # Todo create a constructor 
 
-    def __init__(self, name, Type, breed):
-        super().__init__(name, Type, breed)
+    def __init__(self, name, Type, breed, speak):
+        super().__init__(name, Type, breed, speak)
