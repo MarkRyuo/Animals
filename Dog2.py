@@ -12,6 +12,6 @@ class Dog2(Dog) :
     # todo create a method like in subclass parent 
 
     def call(self):
-        print("This is Dog2 class")
+        print("\n This is Dog2 class")
         super().call()
         
