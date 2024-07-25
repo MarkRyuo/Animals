@@ -6,12 +6,10 @@ class Dog(Pets) :
     # todo create constructor for dog then add the superclass constructor 
     
     def __init__(self, name, Type, breed):
-        super().__init__(name, Type)
-        self.breed = breed 
+        super().__init__(name, Type, breed)
     
     
     # Todo call the call method in the superclass 
     
     def call(self):
-        super().call() # ? Call the superclass method called call
         print(f"The breed of this dog is {self.breed} \n")
