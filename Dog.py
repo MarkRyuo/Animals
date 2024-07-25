@@ -12,4 +12,4 @@ class Dog(Pets) :
     # Todo call the call method in the superclass 
     
     def call(self):
-        print
+        print(f"A {self.Type}, name {self.name}")
