@@ -7,8 +7,7 @@ class Cat(Pets) :
     # Todo Create constructor
 
     def __init__(self, name, Type, breed):
-        super().__init__(name, Type)
-        self.breed = breed
+        super().__init__(name, Type, breed)
     
     
     def call(self):

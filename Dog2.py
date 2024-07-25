@@ -14,3 +14,4 @@ class Dog2(Dog) :
     def call(self):
         print("This is Dog2 class")
         super().call()
+        
