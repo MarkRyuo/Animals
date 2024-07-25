@@ -7,7 +7,7 @@ from Cat import Cat
 
 def main() :
     
-    dog = Dog("Doggy", "Dog", "Doberman")
+    dog = Dog("Doggy", "Dog", "Doberman", "AWW, AWW")
     dog.call()
 
     cat = Cat("Catty", "Cat", "MIrngaw")
