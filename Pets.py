@@ -12,4 +12,5 @@ class Pets(ABC) :
         self.breed = breed
 
     @abstractmethod 
-    def call(self) : 
+    def call(self) :
+        pass 
