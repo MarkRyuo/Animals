@@ -15,3 +15,7 @@ class Dog(Pets) :
     def call(self):
         print("This is a Dog class")
         print(f"A {self.Type}, name {self.name} breed is {self.breed}")
+
+
+
+# * This point Dog is subclass of Pets a superclass but 
