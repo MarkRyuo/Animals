@@ -18,4 +18,5 @@ class Dog(Pets) :
 
 
 
-# * Dog is subclass of Pets a superclass but this point the Dog has a subclass name Dog2  
+# * Dog is subclass of Pets a superclass but this point the Dog has a subclass name Dog2 
+# * A subclass have a subclass  
