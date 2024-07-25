@@ -6,7 +6,7 @@
 
 ## Current V.2 
 
-    Version -2 A abstract Method 
+    Version -2 a abstract method 
 
 
 ### V.1 
