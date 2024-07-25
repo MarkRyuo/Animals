@@ -6,7 +6,7 @@
 
 ## Current V.2 
 
-    Version -2 advance inheritance  
+    Version -2 A abstract Method 
 
 
 ### V.1 
