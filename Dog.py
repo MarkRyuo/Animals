@@ -13,4 +13,5 @@ class Dog(Pets) :
     # Todo call the call method in the superclass 
     
     def call(self):
+        print("This is a Dog class")
         print(f"A {self.Type}, name {self.name} breed is {self.breed}")
