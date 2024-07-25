@@ -12,5 +12,5 @@ class Cat(Pets) :
     
     def call(self):
         print("This is a Cat class ")
-        print(f"A {self.Type}, name {self.name} breed is {self.breed}"))
+        print(f"A {self.Type}, name {self.name} breed is {self.breed}")
         
