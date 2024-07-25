@@ -1,4 +1,7 @@
 # V.2 Current
 
 
-v.1 
+
+### V.1 
+
+    Version 1 is a simple inheritance and  
