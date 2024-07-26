@@ -12,5 +12,5 @@ class Animals(ABC) :
         self.__age = age  # ? A private attribute 
     
     @abstractmethod
-    def call() :
+    def call(self) :
         pass
