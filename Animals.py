@@ -7,4 +7,6 @@ from abc import ABC, abstractmethod
 class Animals(ABC) :
 
     def __init__(self, Type, name, age) :
-        self.Type = Type 
+        self.Type = Type  # ? A public attribute 
+        self.name = name  # ? A public attribute 
+        self.__age = age 
