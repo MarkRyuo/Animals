@@ -10,4 +10,4 @@ class Dog(Animals):
     
 
     def call(self) :
-        print(f"The name of this {self.Type} is {self.name}, age of {}")
+        print(f"The name of this {self.Type} is {self.name}, age of ") # ! Solve this problem
