@@ -10,4 +10,4 @@ class Dog(Animals):
     
 
     def call(self) :
-        
+        print(f"Type of is {self.Type}")
