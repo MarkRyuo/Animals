@@ -1,22 +1,13 @@
-from Pets import Pets 
+from Animals import Animals 
 
 
-class Dog(Pets) :
-    
-    # todo create constructor for dog then add the superclass constructor 
-    
-    def __init__(self, name, Type, breed, speak):
-        super().__init__(name, Type, breed)
-        self.speak = speak 
-    
-    
-    # Todo call the call method in the superclass 
-    
-    def call(self):
-        print("This is a Dog class")
-        print(f"A {self.Type}, name {self.name} breed is {self.breed}")
+# Todo creating a subclass for Animals 
 
+class Dog(Animals):
 
+    def __init__(self, Type, name, age):
+        super().__init__(Type, name, age)
+    
 
-# * Dog is subclass of Pets a superclass but this point the Dog has a subclass name Dog2 
-# * A subclass have a subclass  
+    def call(self) :
+        print(f"The name of this {self.Type} is {self.name}, age of ") # ! Solve this problem
