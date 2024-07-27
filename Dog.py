@@ -13,4 +13,4 @@ class Dog(Animals):
         print(f"The name of this {self.Type} is {self.name}") # ! Solve this problem
     
     def get_age(self):
-        
+        return self.__age
