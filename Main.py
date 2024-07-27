@@ -8,7 +8,7 @@ def main() :
     print(dog.get_age())
 
     if dog :
-        print(f"")
+        print(f"{dog.call()} and the age is {dog.get_age()}")
 
 
 main()
