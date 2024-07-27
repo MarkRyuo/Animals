@@ -13,7 +13,7 @@ class Animals(ABC) :
     
     
     def get_age(self) :
-        return self.__age 
+        return self.__age # ? Encapsulation use the get_age method for accessing the private attribute (self.__age)
     
     @abstractmethod
     def call(self) :
