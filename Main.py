@@ -7,5 +7,7 @@ def main() :
     dog.call()
     print(dog.get_age())
 
+    print(dog.call())
+
 
 main()
