@@ -12,10 +12,9 @@ class Animals(ABC) :
         self.__age = age  # ? A private attribute (age is not accessible in subclass)
     
     
-
-
     def get_age(self) :
         return self.__age 
     
+    @abstractmethod
     def call(self) :
-        print(f"The name of this {self.Type} is {self.name}") # ! Solve this problem
+        pass 
