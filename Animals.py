@@ -16,4 +16,4 @@ class Animals(ABC) :
         pass
 
     def get_age(self) :
-        return self.__age 
+        pass 
