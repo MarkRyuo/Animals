@@ -1,3 +1,4 @@
+from typing import override
 from Animals import Animals 
 
 
@@ -9,5 +10,6 @@ class Dog(Animals):
         super().__init__(Type, name, age)
     
     
+    # * get the get_age method in superclass  
     def get_age(self):
         return self.__age
