@@ -5,7 +5,7 @@ def main() :
 
     dog = Dog("Dog", "Rambo", 30)
 
-    if dog :
+    if dog : # * Creating a statement 
         print(f"{dog.call()} and the age is ({dog.get_age()})")
     else :
         return False
