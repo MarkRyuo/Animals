@@ -13,7 +13,8 @@ class Animals(ABC) :
     
     
     def call(self) :
-        pass
+        print(f"The name of this {self.Type} is {self.name}") # ! Solve this problem
+
 
     @abstractmethod
     def get_age(self) :
