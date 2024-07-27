@@ -8,6 +8,6 @@ class Dog(Animals):
     def __init__(self, Type, name, age):
         super().__init__(Type, name, age)
     
-
+    
     def call(self) :
-        print(f"The name of this {self.Type} is {self.name}, age of ") # ! Solve this problem
+        return f"The name of this ({self.Type}) is ({self.name})" # ! Solve this problem

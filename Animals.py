@@ -11,9 +11,10 @@ class Animals(ABC) :
         self.name = name  # ? A public attribute 
         self.__age = age  # ? A private attribute (age is not accessible in subclass)
     
-    @abstractmethod
-    def call(self) :
-        pass
-
+    
     def get_age(self) :
-        return self.__age 
+        return self.__age # ? Encapsulation use the get_age method for accessing the private attribute (self.__age)
+    
+    @abstractmethod
+    def call(self) : # ? Abstract uses to efficiency for subclasses 
+        pass 
