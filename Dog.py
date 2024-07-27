@@ -9,3 +9,5 @@ class Dog(Animals):
         super().__init__(Type, name, age)
     
     
+    def call(self) :
+        print(f"The name of this {self.Type} is {self.name}") # ! Solve this problem
