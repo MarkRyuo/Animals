@@ -9,6 +9,3 @@ class Dog(Animals):
         super().__init__(Type, name, age)
     
     
-    # * get the get_age method in superclass  
-    def get_age(self):
-        return self.__age
