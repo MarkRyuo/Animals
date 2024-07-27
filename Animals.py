@@ -1,4 +1,5 @@
 from abc import ABC, abstractmethod
+from typing import override
 
 
 # Todo Encapsulation 
@@ -16,6 +17,5 @@ class Animals(ABC) :
         print(f"The name of this {self.Type} is {self.name}") # ! Solve this problem
 
 
-    @abstractmethod
     def get_age(self) :
-        pass 
+        return self.__age 
