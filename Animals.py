@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 
 
 # Todo Polymorphism 
+# Todo add new parameter in superclass 
 
 
 class Animals(ABC) :
