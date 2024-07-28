@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 
 
-# Todo Encapsulation 
+# Todo Polymorphism 
 
 
 class Animals(ABC) :
