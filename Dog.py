@@ -5,9 +5,12 @@ from Animals import Animals
 
 class Dog(Animals):
 
-    def __init__(self, Type, name, age):
-        super().__init__(Type, name, age)
+    def __init__(self, Type, name, age, owner):
+        super().__init__(Type, name, age, owner)
     
     
     def call(self) :
-        return f"The name of this ({self.Type}) is ({self.name})" # ! Solve this problem
+        return f"The name of this ({self.Type}) is ({self.name})" # * Solve this problem (Solved)
+    
+    def get_owner(self):
+        return f"The name of the owner is ({self.owner})"
