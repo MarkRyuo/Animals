@@ -22,4 +22,4 @@ class Animals(ABC) :
 
     # * Polymorphism 
     def get_owner(self) :
-        pass 
+        print(f"This is superclass owner is {self.owner}")
