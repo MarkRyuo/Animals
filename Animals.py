@@ -11,7 +11,7 @@ class Animals(ABC) :
         self.Type = Type  # ? A public attribute 
         self.name = name  # ? A public attribute 
         self.__age = age  # ? A private attribute (age is not accessible in subclass)
-        self.owner = owner 
+        self.owner = owner # ? A public attribute 
     
     
     def get_age(self) :
