@@ -13,4 +13,4 @@ class Dog(Animals):
         return f"The name of this ({self.Type}) is ({self.name})" # * Solve this problem (Solved)
     
     def get_owner(self):
-        return f"The name of the owner is {self.owner}"
+        return f"The name of the owner is ({self.owner})"
