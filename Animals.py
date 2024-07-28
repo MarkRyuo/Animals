@@ -19,3 +19,6 @@ class Animals(ABC) :
     @abstractmethod
     def call(self) : # ? Abstract uses to efficiency for subclasses 
         pass 
+
+    def get_owner(self) :
+        pass 
