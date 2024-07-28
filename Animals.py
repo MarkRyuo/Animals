@@ -13,7 +13,6 @@ class Animals(ABC) :
         self.__age = age  # ? A private attribute (age is not accessible in subclass)
         self.owner = owner # ? A public attribute 
     
-    
     def get_age(self) :
         return self.__age # ? Encapsulation use the get_age method for accessing the private attribute (self.__age)
     
