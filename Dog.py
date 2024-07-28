@@ -10,4 +10,4 @@ class Dog(Animals):
     
     
     def call(self) :
-        return f"The name of this ({self.Type}) is ({self.name})" # ! Solve this problem
+        return f"The name of this ({self.Type}) is ({self.name})" # * Solve this problem (Solved)
