@@ -13,7 +13,7 @@
 
 ### V.3
 
-    Version -3 Polymorphism & Encapsulation 
+    Version -3 Encapsulation 
 
 ### V.2 
 
