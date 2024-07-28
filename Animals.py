@@ -20,5 +20,6 @@ class Animals(ABC) :
     def call(self) : # ? Abstract uses to efficiency for subclasses 
         pass 
 
+    # * Polymorphism 
     def get_owner(self) :
         pass 
