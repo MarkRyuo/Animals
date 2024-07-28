@@ -7,6 +7,7 @@ def main() :
 
     if dog : # * Creating a statement 
         print(f"{dog.call()} and the age is ({dog.get_age()})")
+        print()
     else :
         return False
 
