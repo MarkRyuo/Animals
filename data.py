@@ -9,5 +9,6 @@
 
 data_Animals = {
     "nameData" : "Rambo",
-    
+    "ageData" : 10,
+    "breedData" : "Askal"
 }
