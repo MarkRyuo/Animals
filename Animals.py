@@ -20,5 +20,4 @@ class Animals(ABC) :
         # if  # ! Continue this 
     
 
-    @abstractmethod
-     
+    # @abstractmethod 
