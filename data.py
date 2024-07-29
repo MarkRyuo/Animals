@@ -1,6 +1,4 @@
 
-
-
 # ? Animals data 
 
 
@@ -12,3 +10,4 @@ data_Animals = {
     "ageData" : 10,
     "breedData" : "Askal"
 }
+
