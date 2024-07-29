@@ -8,4 +8,4 @@ class Animals(ABC) :
     def __init__(self, animalName,animalAge,animalBreed) :
         self.animalName = animalName 
         self.animalAge = animalAge
-        self.__animalBreed = animalBreed
+        self.__animalBreed = animalBreed # ? Private attribute 
