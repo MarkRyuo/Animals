@@ -15,4 +15,6 @@ class Animals(ABC) :
         return self.__animalBreed # * Returning the private aatribute to access publically
     
     @abstractmethod
+    def get_name(self) :
+        
      
