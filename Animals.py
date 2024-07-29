@@ -1,25 +1,23 @@
 from abc import ABC, abstractmethod
 
 
-# Todo Polymorphism 
-# Todo add new parameter in superclass 
-
-
 class Animals(ABC) :
 
-    def __init__(self, Type, name, age, owner) : # * Add new parameter name owner 
-        self.Type = Type  # ? A public attribute 
-        self.name = name  # ? A public attribute 
-        self.__age = age  # ? A private attribute (age is not accessible in subclass)
-        self.owner = owner # ? A public attribute 
-    
-    def get_age(self) :
-        return self.__age # ? Encapsulation use the get_age method for accessing the private attribute (self.__age)
-    
-    @abstractmethod
-    def call(self) : # ? Abstract uses to efficiency for subclasses 
-        pass 
+    # Todo Name_of_animal, age_of_animal, breed_of_animal
 
-    # * Polymorphism 
-    def get_owner(self) :
-        print(f"This is superclass owner is {self.owner}")
+    def __init__(self, animalName,animalAge,animalBreed) :
+        self.animalName = animalName # ? Public attribute
+        self.animalAge = animalAge # ? Public attribute
+        self.__animalBreed = animalBreed # ? Private attribute 
+
+    # * Encapsulation 
+    def get_breed(self) :
+        return self.__animalBreed # * Returning the private aatribute to access publically
+    
+
+    # def get_name(self) :
+        # todo create a simple logic here to check name of the animal 
+        # if  # ! Continue this 
+    
+
+    # @abstractmethod 
