@@ -15,7 +15,7 @@ class Animals(ABC) :
         return self.__animalBreed # * Returning the private aatribute to access publically
     
 
-    def get_name(self) :
+    # def get_name(self) :
         # todo create a simple logic here to check name of the animal 
         # if  # ! Continue this 
     
