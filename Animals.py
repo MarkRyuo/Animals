@@ -9,3 +9,8 @@ class Animals(ABC) :
         self.animalName = animalName # ? Public attribute
         self.animalAge = animalAge # ? Public attribute
         self.__animalBreed = animalBreed # ? Private attribute 
+
+    # * Encapsulation 
+    def get_breed(self) :
+        return self.__animalBreed # * Returning the private aatribute to access publically
+     
