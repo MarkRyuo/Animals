@@ -13,4 +13,6 @@ class Animals(ABC) :
     # * Encapsulation 
     def get_breed(self) :
         return self.__animalBreed # * Returning the private aatribute to access publically
+    
+    @abstractmethod
      
