@@ -8,4 +8,4 @@ class Animals(ABC) :
     def __init__(self, animalName,animalAge,animalBreed) :
         self.animalName = animalName 
         self.animalAge = animalAge
-        self.animalBreed = 
+        self.__animalBreed = animalBreed
