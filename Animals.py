@@ -17,7 +17,7 @@ class Animals(ABC) :
 
     def get_name(self) :
         # todo create a simple logic here to check name of the animal 
-         
+        if  
     
 
     @abstractmethod
