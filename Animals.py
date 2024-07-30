@@ -18,7 +18,7 @@ class Animals(ABC) :
 
     def get_name(self) :
         # todo create a simple logic here to check name of the animal 
-        print(data_Animals["name"])
+        print(data_Animals["nameData"])
     
 
 
