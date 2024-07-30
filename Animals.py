@@ -21,3 +21,4 @@ class Animals(ABC) :
 
 
     @abstractmethod 
+    def display(self) 
