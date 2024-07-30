@@ -20,7 +20,7 @@ class Animals(ABC) :
         # todo create a simple logic here to check name of the animal 
         # * Restrict if name of animal is Existed
         
-        if self.animalName == data_Animals["nameData"] :
+        if animalName == data_Animals["nameData"] :
             return False 
         else :
             return True
