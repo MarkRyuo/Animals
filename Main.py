@@ -1,4 +1,4 @@
-from Animals import Animals
+from Dog import Dog
 
 
 
