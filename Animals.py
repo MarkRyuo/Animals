@@ -21,7 +21,7 @@ class Animals(ABC) :
         # * Restrict if name of animal is Existed
         
         if self.animalName == data_Animals["nameData"] :
-            return False 
+            print(f"{self.animalName} Existed")
         else :
             return True
     
