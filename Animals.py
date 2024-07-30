@@ -20,11 +20,11 @@ class Animals(ABC) :
         # todo create a simple logic here to check name of the animal 
         # * Restrict if name of animal is Existed
         
-        for i in data_Animals.items :
+        for i in data_Animals. :
             if self.animalName == data_Animals
 
 
-        if self.animalName == data_Animals["animal_One"] :  # ? data_Animals is import in Data 
+        if self.animalName == data_Animals["animal_One": "nameData"] :  # ? data_Animals is import in Data 
             print(f"{self.animalName} Existed")
         else :
             return True
