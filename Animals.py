@@ -16,11 +16,11 @@ class Animals(ABC) :
         return self.__animalBreed # * Returning the private aatribute to access publically
     
 
-    def get_name(self, animalName) :
+    def get_name(self) :
         # todo create a simple logic here to check name of the animal 
         # * Restrict if name of animal is Existed
         
-        if animalName == data_Animals["nameData"] :
+        if self.animalName == data_Animals["nameData"] :
             return False 
         else :
             return True
