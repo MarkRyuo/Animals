@@ -18,9 +18,8 @@ class Animals(ABC) :
 
     def get_name(self) :
         # todo create a simple logic here to check name of the animal 
+        # * Restrict if name of animal is Existed
 
-
-        print(data_Animals["nameData"])
     
 
 
