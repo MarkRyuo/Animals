@@ -22,7 +22,8 @@ class Animals(ABC) :
         
         if self.animalName == data_Animals["nameData"] :
             return False 
-        else 
+        else :
+            return True
     
 
 
