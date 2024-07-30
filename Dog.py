@@ -10,5 +10,6 @@ class Dog(Animals) :
         super().__init__(animalName, animalAge, animalBreed) 
     
 
+
     def display(self):
-        return super().display()
+        
