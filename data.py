@@ -8,10 +8,8 @@
 
 data_Animals = {
 
-    "animal_One" : {
-        "nameData" : "Rambo",
-        "ageData" : 10,
-        "breedData" : "Askal"
-    }
+    "nameData" : "Rambo",
+    "ageData" : 10,
+    "breedData" : "Askal"
 }
 
