@@ -20,10 +20,6 @@ class Animals(ABC) :
         # todo create a simple logic here to check name of the animal 
 
 
-
-
-
-
         print(data_Animals["nameData"])
     
 
