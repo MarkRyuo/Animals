@@ -24,10 +24,6 @@ class Animals(ABC) :
 
 
 
-
-
-
-
         print(data_Animals["nameData"])
     
 
