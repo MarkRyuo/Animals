@@ -20,7 +20,8 @@ class Animals(ABC) :
         # todo create a simple logic here to check name of the animal 
         # * Restrict if name of animal is Existed
         
-        if data_Animals["nameData"]
+        if data_Animals["nameData"] :
+            return False 
     
 
 
